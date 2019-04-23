@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+/* 
+font-family: 'Lato', sans-serif; 
+*/
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+h1 {
+    font-size: 31px;
+}
+img {
+    max-width: 100%;
+}
+.sm-img {
+    max-width: 33%;
+}
+.news-img {
+    max-width: 25%;
+}
+button {
+    height: 38px;
+	width: 149px;
+    border-radius: 19px;
+    font-size: 14px;
+}
+.request-btn {
+	background-color: #FEFFFF;
+    box-shadow: 0 0 7px 0 rgba(0,0,0,0.07);
+    color: #204D71;
+}
+
+.get-btn {
+	background-color: #1BC4F1;
+	box-shadow: 0 22px 9px -12px rgba(68,169,255,0.27);
+}
